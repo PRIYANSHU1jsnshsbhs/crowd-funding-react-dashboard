@@ -1,0 +1,26 @@
+*{
+  font-family: bree serif;
+  font-weight: bolder;
+}
+.progress-bar-container {
+    width: 60vw;
+    border-radius: 8px;
+    padding: 3px;
+    margin-left: 40px;
+  }
+.progress-bar-container h1 {
+  margin: 30px;
+  color: #ffffff;
+  font-size: 50px;
+}
+  
+  .progress-bar {
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  

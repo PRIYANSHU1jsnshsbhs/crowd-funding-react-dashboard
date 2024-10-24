@@ -1,0 +1,27 @@
+.body {
+    background-image: url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 5fr;
+    margin-bottom: 30px;
+}
+.Sidebar {
+    grid-column: 1/2;
+    position: sticky;
+    left: 20px;
+}
+.right {
+    grid-column: 2/3;
+}
+.uhead {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,28 @@
+.aboutus-card {
+    width: 800px; 
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #fff;  
+    border-radius: 8px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    border: 1px solid #ddd; 
+    padding-top: 60px;
+}
+
+.aboutus-card h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #333;
+}
+
+.aboutus-card p {
+    font-size: 20px;
+    color: #666;
+}
+
+@media (min-width: 768px) {
+    .aboutus-card {
+        width: 400px;  
+    }
+}
